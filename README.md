@@ -26,6 +26,26 @@ repos.yml  ──►  scripts/build-index.mjs  ──►  data/labs.json  ──
   (config)         (GitHub REST + raw)           (index)             (static site)
 ```
 
+## Design
+
+The site is styled to match [MicrosoftLearning/Jekyll-Theme](https://github.com/MicrosoftLearning/Jekyll-Theme),
+the remote theme every mslearn-* lab site uses, so the catalogue reads as part of the same
+family. Tokens are taken from that theme's `_sass/theme.scss`: the warm cream page background
+`#f5f1e8`, `#222` body text, the `#6b4ba1` purple accent, `#e3e3e3` borders, white content
+surfaces, the Segoe UI Light/Normal/Semibold stacks, a 1140px centred container and the
+standard Microsoft footer link set.
+
+Two deliberate deviations:
+
+- The theme pins its footer with `fixed-bottom`. Here it sits in normal document flow, because
+  a fixed bar would cover a long scrolling card grid.
+- The theme's visited-link purple `#8a6fc1` only reaches 3.6:1 on cream. Visited links use
+  `#7355a8` instead (5.2:1); `#8a6fc1` is kept for the transient, underlined hover state. Every
+  foreground/background pair in the stylesheet clears WCAG AA 4.5:1, in both colour schemes.
+
+The upstream theme has no dark mode. `prefers-color-scheme: dark` here is a warm dark variant
+that keeps the purple accent rather than inverting the cream into a cold grey.
+
 ## Repository layout
 
 | Path | Purpose |
