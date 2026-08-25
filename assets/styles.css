@@ -1,0 +1,379 @@
+/* Lab Explorer — design tokens carried over from the single-repo prototype. */
+
+:root {
+  --border: #e4e4e7;
+  --muted: #6b7280;
+  --accent: #1a45a5;
+  --accent-bg: #e8f0fe;
+  --surface: #fafafa;
+  --page: #ffffff;
+  --text: #18181b;
+  --tag-bg: #f1f1f3;
+  --tag-text: #52525b;
+  --warn-bg: #fef3c7;
+  --warn-text: #92400e;
+  --radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border: #303036;
+    --muted: #a1a1aa;
+    --accent: #9db9f5;
+    --accent-bg: #1c2b4d;
+    --surface: #17171a;
+    --page: #101012;
+    --text: #ececf0;
+    --tag-bg: #26262b;
+    --tag-text: #c4c4cc;
+    --warn-bg: #43350f;
+    --warn-text: #fcd34d;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent);
+}
+
+.wrap {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  background: var(--page);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.75rem;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------- header / footer ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  padding: 1.75rem 0 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.65rem;
+  letter-spacing: -0.01em;
+}
+
+.lede {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  max-width: 46rem;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  padding: 1.25rem 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.site-footer p {
+  margin: 0.15rem 0;
+}
+
+/* ---------- filter bar ---------- */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: flex-start;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  background: var(--surface);
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 11rem;
+}
+
+.filter--search {
+  flex: 1 1 16rem;
+  min-width: 15rem;
+  max-width: 24rem;
+}
+
+.filter--topic {
+  flex: 1 1 16rem;
+  max-width: 24rem;
+}
+
+.filter--actions {
+  margin-left: auto;
+  justify-content: flex-end;
+  align-self: stretch;
+  min-width: 0;
+}
+
+.filters label,
+.filters .filter > span {
+  text-transform: uppercase;
+  font-size: 0.78em;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.filters input[type="search"],
+.filters select {
+  font: inherit;
+  color: var(--text);
+  background: var(--page);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.5rem;
+  width: 100%;
+}
+
+.filters select[multiple] {
+  padding: 0.2rem;
+}
+
+.filters select[multiple] option {
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+}
+
+.filters select[multiple] option:checked {
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.filters select[multiple] option.is-zero {
+  color: var(--muted);
+}
+
+.topic-search {
+  margin-bottom: 0.15rem;
+}
+
+.hint {
+  margin: 0;
+  font-size: 0.72em;
+  color: var(--muted);
+}
+
+.btn {
+  font: inherit;
+  cursor: pointer;
+  background: var(--page);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.45rem 0.85rem;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ---------- result bar ---------- */
+
+.resultbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin: 1.25rem 0 0.85rem;
+}
+
+.count {
+  margin: 0;
+  font-weight: 600;
+}
+
+.active-filters {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- cards ---------- */
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  background: var(--page);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.card h2 a {
+  text-decoration: none;
+}
+
+.card h2 a:hover,
+.card h2 a:focus {
+  text-decoration: underline;
+}
+
+.card .repo {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 600;
+  margin: 0;
+}
+
+.card .desc {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.card .tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.72em;
+  padding: 0.12em 0.5em;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  white-space: nowrap;
+}
+
+.tag--accent {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.tag--warn {
+  background: var(--warn-bg);
+  color: var(--warn-text);
+}
+
+.card .meta {
+  margin: auto 0 0;
+  padding-top: 0.2rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ---------- states ---------- */
+
+.empty,
+.error {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 2rem 1.25rem;
+  text-align: center;
+  color: var(--muted);
+  background: var(--surface);
+}
+
+.empty h2,
+.error h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.empty p,
+.error p {
+  margin: 0 0 0.85rem;
+}
+
+mark {
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 0 0.1em;
+  border-radius: 2px;
+}
+
+@media (max-width: 640px) {
+  .filters {
+    gap: 1rem;
+  }
+
+  .filter,
+  .filter--search,
+  .filter--topic {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .filter--actions {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab Explorer &mdash; MicrosoftLearning hands-on exercises</title>
+    <meta
+      name="description"
+      content="Search and filter hands-on lab exercises across MicrosoftLearning lab repositories."
+    />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#results">Skip to results</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <h1>Lab Explorer</h1>
+        <p class="lede">
+          Every hands-on exercise across the MicrosoftLearning lab repositories, in one
+          searchable place.
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <form class="filters" id="filters" role="search" aria-label="Filter labs">
+        <div class="filter filter--search">
+          <label for="q">Search</label>
+          <input
+            type="search"
+            id="q"
+            name="q"
+            placeholder="Title, description or topic&hellip;"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="filter">
+          <label for="repo">Course / repo</label>
+          <select id="repo" name="repo" multiple size="5"></select>
+          <p class="hint">Ctrl/&#8984; &#43; click for multiple</p>
+        </div>
+
+        <div class="filter">
+          <label for="level">Level</label>
+          <select id="level" name="level" multiple size="5"></select>
+        </div>
+
+        <div class="filter">
+          <label for="duration">Duration</label>
+          <select id="duration" name="duration">
+            <option value="">Any duration</option>
+            <option value="30">30 minutes or less</option>
+            <option value="45">45 minutes or less</option>
+            <option value="60">60 minutes or less</option>
+            <option value="60+">More than 60 minutes</option>
+          </select>
+        </div>
+
+        <div class="filter">
+          <label for="status">Status</label>
+          <select id="status" name="status" multiple size="5"></select>
+        </div>
+
+        <div class="filter filter--topic">
+          <label for="topic">Topic</label>
+          <input
+            type="search"
+            id="topic-search"
+            class="topic-search"
+            placeholder="Narrow the topic list&hellip;"
+            aria-label="Filter the topic list"
+            autocomplete="off"
+          />
+          <select id="topic" name="topic" multiple size="5"></select>
+        </div>
+
+        <div class="filter filter--actions">
+          <button type="button" id="clear" class="btn">Clear all filters</button>
+        </div>
+      </form>
+
+      <div class="resultbar">
+        <p id="count" class="count" role="status" aria-live="polite">Loading labs&hellip;</p>
+        <p id="active-filters" class="active-filters"></p>
+      </div>
+
+      <section id="results" tabindex="-1" aria-label="Lab results">
+        <ul class="cards" id="cards"></ul>
+        <div class="empty" id="empty" hidden>
+          <h2>No labs match those filters</h2>
+          <p>Try removing a filter or broadening your search term.</p>
+          <button type="button" class="btn" data-clear>Clear all filters</button>
+        </div>
+        <div class="error" id="error" hidden>
+          <h2>Couldn&rsquo;t load the lab index</h2>
+          <p id="error-detail"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p id="freshness">&nbsp;</p>
+        <p>
+          <a href="https://github.com/MicrosoftLearning/lab-explorer">Source on GitHub</a>
+          &middot;
+          <a href="https://github.com/MicrosoftLearning/lab-explorer/blob/main/repos.yml"
+            >Add a repo</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="./assets/app.js"></script>
+  </body>
+</html>

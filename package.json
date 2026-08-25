@@ -1,0 +1,14 @@
+{
+  "name": "lab-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cross-repo catalogue of MicrosoftLearning hands-on lab exercises.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-index.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

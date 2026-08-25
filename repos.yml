@@ -1,0 +1,39 @@
+# Repositories indexed by Lab Explorer.
+#
+# To add a repo, append an entry below and open a PR. Only `repo` and `title`
+# are required. `branch` is optional and defaults to the repo's default branch.
+#
+#   - repo: MicrosoftLearning/mslearn-something   # owner/name
+#     title: Human friendly course name           # shown in the UI
+#     branch: main                                # optional
+#
+# The nightly Pages workflow re-runs the indexer, so new repos appear within a
+# day of merging (or immediately if you run the workflow manually).
+
+repos:
+  - repo: MicrosoftLearning/mslearn-ai-agents
+    title: Develop AI agents
+
+  - repo: MicrosoftLearning/mslearn-ai-vision
+    title: Azure AI Vision
+
+  - repo: MicrosoftLearning/mslearn-ai-language
+    title: Azure AI Language
+
+  - repo: MicrosoftLearning/mslearn-ai-studio
+    title: Microsoft Foundry
+
+  - repo: MicrosoftLearning/mslearn-ai-information-extraction
+    title: AI information extraction
+
+  - repo: MicrosoftLearning/mslearn-ai-fundamentals
+    title: Azure AI Fundamentals
+
+  - repo: MicrosoftLearning/mslearn-ai-concepts
+    title: AI concepts
+
+  - repo: MicrosoftLearning/mslearn-ai-governance
+    title: AI governance
+
+  - repo: MicrosoftLearning/mslearn-ai-multi-agents
+    title: Multi-agent solutions

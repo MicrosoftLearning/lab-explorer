@@ -1,0 +1,1717 @@
+{
+  "generated_at": "2026-08-25T15:30:17.749Z",
+  "repo_count": 9,
+  "lab_count": 81,
+  "repos": [
+    {
+      "repo": "mslearn-ai-agents",
+      "fullName": "MicrosoftLearning/mslearn-ai-agents",
+      "title": "Develop AI agents",
+      "branch": "main",
+      "labCount": 35,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents"
+    },
+    {
+      "repo": "mslearn-ai-vision",
+      "fullName": "MicrosoftLearning/mslearn-ai-vision",
+      "title": "Azure AI Vision",
+      "branch": "main",
+      "labCount": 4,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-vision"
+    },
+    {
+      "repo": "mslearn-ai-language",
+      "fullName": "MicrosoftLearning/mslearn-ai-language",
+      "title": "Azure AI Language",
+      "branch": "main",
+      "labCount": 7,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-language"
+    },
+    {
+      "repo": "mslearn-ai-studio",
+      "fullName": "MicrosoftLearning/mslearn-ai-studio",
+      "title": "Microsoft Foundry",
+      "branch": "main",
+      "labCount": 6,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-studio"
+    },
+    {
+      "repo": "mslearn-ai-information-extraction",
+      "fullName": "MicrosoftLearning/mslearn-ai-information-extraction",
+      "title": "AI information extraction",
+      "branch": "main",
+      "labCount": 5,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction"
+    },
+    {
+      "repo": "mslearn-ai-fundamentals",
+      "fullName": "MicrosoftLearning/mslearn-ai-fundamentals",
+      "title": "Azure AI Fundamentals",
+      "branch": "main",
+      "labCount": 7,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals"
+    },
+    {
+      "repo": "mslearn-ai-concepts",
+      "fullName": "MicrosoftLearning/mslearn-ai-concepts",
+      "title": "AI concepts",
+      "branch": "main",
+      "labCount": 7,
+      "skippedCount": 1,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-concepts"
+    },
+    {
+      "repo": "mslearn-ai-governance",
+      "fullName": "MicrosoftLearning/mslearn-ai-governance",
+      "title": "AI governance",
+      "branch": "main",
+      "labCount": 9,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-governance"
+    },
+    {
+      "repo": "mslearn-ai-multi-agents",
+      "fullName": "MicrosoftLearning/mslearn-ai-multi-agents",
+      "title": "Multi-agent solutions",
+      "branch": "main",
+      "labCount": 1,
+      "skippedCount": 0,
+      "url": "https://github.com/MicrosoftLearning/mslearn-ai-multi-agents"
+    }
+  ],
+  "labs": [
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/00-ai-workloads.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore AI workloads",
+      "description": "Use an AI agent to explore AI workloads.",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/00-ai-workloads.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/00-ai-workloads.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/00-ai-workloads.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/02-generative-ai.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore generative AI and agents",
+      "description": "Use a chat playground to interact with a generative AI model",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/02-generative-ai.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/02-generative-ai.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/02-generative-ai.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/03-language.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore AI text analysis",
+      "description": "Use AI to analyze text.",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/03-language.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/03-language.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/03-language.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/04-speech.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore AI speech",
+      "description": "Use AI to explore speech-to-text and text-to-speech capabilities with a generative AI model.",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/04-speech.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/04-speech.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/04-speech.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/05-vision.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore computer vision",
+      "description": "Use image analysis with a generative AI model.",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/05-vision.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/05-vision.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/05-vision.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/06-info-extraction.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore information extraction",
+      "description": "Use OCR and generative AI to extract information from documents.",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/06-info-extraction.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/06-info-extraction.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/06-info-extraction.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-concepts/Instructions/exercises/07-explore-rag.md",
+      "repo": "mslearn-ai-concepts",
+      "repoTitle": "AI concepts",
+      "title": "Explore retrieval augmented generation (RAG)",
+      "description": "Use a chat playground to explore how to use RAG to ground prompts in knowledge.",
+      "level": 100,
+      "duration": 15,
+      "status": null,
+      "topics": [],
+      "path": "Instructions/exercises/07-explore-rag.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-concepts/blob/main/Instructions/exercises/07-explore-rag.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/07-explore-rag.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G-govern-ai-through-a-gateway.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Govern AI models and agents through an API gateway",
+      "description": "Deploy the Citadel AI Governance Hub, then govern every model, access contract, and agent through a single API Management gateway: onboard backends, enforce model RBAC and quotas, observe usage and cost, mask PII, and publish governed agents and MCP tools. A modular lab you can complete end to end or one task at a time.",
+      "level": 300,
+      "duration": 300,
+      "status": "draft",
+      "topics": [
+        "AI governance",
+        "API Management gateway",
+        "access contracts",
+        "observability",
+        "PII protection",
+        "agent governance"
+      ],
+      "path": "Instructions/Exercises/G-govern-ai-through-a-gateway.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G-govern-ai-through-a-gateway.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G-govern-ai-through-a-gateway.html",
+      "extra": {
+        "concepts": "AI governance, API Management gateway, access contracts, observability, PII protection, agent governance"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G0-getting-started.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Getting started: deploy the Citadel governance hub",
+      "description": "Shared setup for the Govern AI models and agents lab: register resource providers, deploy the Citadel hub and a sample spoke with azd, and set up your Python environment. Complete this once before any task.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "environment setup",
+        "azd deployment",
+        "hub-and-spoke"
+      ],
+      "path": "Instructions/Exercises/G0-getting-started.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G0-getting-started.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G0-getting-started.html",
+      "extra": {
+        "concepts": "environment setup, azd deployment, hub-and-spoke"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G1-onboard-backends-and-universal-llm-api.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 1 – Onboard AI backends and call the Universal LLM API",
+      "description": "Register AI model backends with the Citadel API Management gateway and route every model call through the Universal LLM API, using the workshop onboarding and validation notebooks.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "API Management gateway",
+        "backend onboarding",
+        "Universal LLM API",
+        "model routing"
+      ],
+      "path": "Instructions/Exercises/G1-onboard-backends-and-universal-llm-api.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G1-onboard-backends-and-universal-llm-api.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G1-onboard-backends-and-universal-llm-api.html",
+      "extra": {
+        "concepts": "API Management gateway, backend onboarding, Universal LLM API, model routing"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G2-enforce-access-contracts.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 2 – Enforce access contracts with model RBAC and quotas",
+      "description": "Deploy Citadel access contracts that pin each workload to specific models (model-level RBAC) and cap its token spend with per-minute and quota limits, then validate the enforcement and throttling behavior.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "access contracts",
+        "model RBAC",
+        "token quotas",
+        "rate limiting",
+        "APIM products and subscriptions"
+      ],
+      "path": "Instructions/Exercises/G2-enforce-access-contracts.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G2-enforce-access-contracts.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G2-enforce-access-contracts.html",
+      "extra": {
+        "concepts": "access contracts, model RBAC, token quotas, rate limiting, APIM products and subscriptions"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G3-observe-usage-and-cost.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 3 – Observe usage, cost, and throttling",
+      "description": "Explore the telemetry your governed gateway generates: API Management Analytics and metrics, KQL log queries, Application Insights traces, and token-level usage records in Cosmos DB enriched with model pricing.",
+      "level": 200,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "observability",
+        "APIM analytics",
+        "KQL",
+        "Application Insights",
+        "Cosmos DB usage records",
+        "cost analytics"
+      ],
+      "path": "Instructions/Exercises/G3-observe-usage-and-cost.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G3-observe-usage-and-cost.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G3-observe-usage-and-cost.html",
+      "extra": {
+        "concepts": "observability, APIM analytics, KQL, Application Insights, Cosmos DB usage records, cost analytics"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G4-protect-data-with-pii-policies.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 4 – Protect sensitive data with PII policies",
+      "description": "Add gateway policies that anonymize and de-anonymize, or outright block, personally identifiable information in prompts, then analyze PII processing records from Cosmos DB.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "PII detection",
+        "anonymization",
+        "data protection policies",
+        "Azure AI Language",
+        "access contracts"
+      ],
+      "path": "Instructions/Exercises/G4-protect-data-with-pii-policies.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G4-protect-data-with-pii-policies.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G4-protect-data-with-pii-policies.html",
+      "extra": {
+        "concepts": "PII detection, anonymization, data protection policies, Azure AI Language, access contracts"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G5-govern-agent-frameworks-and-unified-ai-api.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 5 – Govern agent frameworks and the Unified AI API",
+      "description": "Route three different agent frameworks (Microsoft Agent Framework, Foundry SDK, LangChain) through their access contracts, then validate the multi-provider Unified AI API surface with its path rules, model access control, and debug headers.",
+      "level": 400,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "agent frameworks",
+        "Unified AI API",
+        "multi-provider routing",
+        "model access control",
+        "gateway policies"
+      ],
+      "path": "Instructions/Exercises/G5-govern-agent-frameworks-and-unified-ai-api.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G5-govern-agent-frameworks-and-unified-ai-api.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G5-govern-agent-frameworks-and-unified-ai-api.html",
+      "extra": {
+        "concepts": "agent frameworks, Unified AI API, multi-provider routing, model access control, gateway policies"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G6-publish-hosted-agent-and-a2a.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 6 – Publish and govern a hosted agent and an A2A endpoint",
+      "description": "Build, deploy, and govern a Foundry hosted agent with the Agent Governance Toolkit, then publish a Foundry agent through API Management as a governed Agent-to-Agent (A2A) endpoint callable with only a subscription key.",
+      "level": 400,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "hosted agents",
+        "Agent Governance Toolkit",
+        "agent policy enforcement",
+        "Agent-to-Agent (A2A)",
+        "access contracts"
+      ],
+      "path": "Instructions/Exercises/G6-publish-hosted-agent-and-a2a.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G6-publish-hosted-agent-and-a2a.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G6-publish-hosted-agent-and-a2a.html",
+      "extra": {
+        "concepts": "hosted agents, Agent Governance Toolkit, agent policy enforcement, Agent-to-Agent (A2A), access contracts"
+      }
+    },
+    {
+      "id": "mslearn-ai-governance/Instructions/Exercises/G7-publish-hr-mcp-via-apim.md",
+      "repo": "mslearn-ai-governance",
+      "repoTitle": "AI governance",
+      "title": "Task 7 – Publish and govern an HR MCP server through APIM",
+      "description": "Deploy an HR Model Context Protocol server, publish it through API Management as a governed access contract with a tool-call rate limit, and consume its tools from a Microsoft Agent Framework agent — all through the gateway.",
+      "level": 400,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "Model Context Protocol (MCP)",
+        "MCP governance",
+        "rate limiting",
+        "access contracts",
+        "Microsoft Agent Framework"
+      ],
+      "path": "Instructions/Exercises/G7-publish-hr-mcp-via-apim.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-governance/blob/main/Instructions/Exercises/G7-publish-hr-mcp-via-apim.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-governance/Instructions/Exercises/G7-publish-hr-mcp-via-apim.html",
+      "extra": {
+        "concepts": "Model Context Protocol (MCP), MCP governance, rate limiting, access contracts, Microsoft Agent Framework"
+      }
+    },
+    {
+      "id": "mslearn-ai-information-extraction/Instructions/Exercises/01-content-understanding.md",
+      "repo": "mslearn-ai-information-extraction",
+      "repoTitle": "AI information extraction",
+      "title": "Extract information from multimodal content",
+      "description": "Use Azure Content Understanding to extract insights from documents, images, audio recordings, and videos.",
+      "level": 200,
+      "duration": 40,
+      "status": "released",
+      "topics": [
+        "Azure",
+        "Azure Content Understanding"
+      ],
+      "path": "Instructions/Exercises/01-content-understanding.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/01-content-understanding.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-information-extraction/Instructions/Exercises/01-content-understanding.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-information-extraction/Instructions/Exercises/02-content-understanding-api.md",
+      "repo": "mslearn-ai-information-extraction",
+      "repoTitle": "AI information extraction",
+      "title": "Develop a Content Understanding client application",
+      "description": "Use the Azure Content Understanding Python SDK to create and use analyzers programmatically.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [
+        "Azure",
+        "Azure Content Understanding"
+      ],
+      "path": "Instructions/Exercises/02-content-understanding-api.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/02-content-understanding-api.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-information-extraction/Instructions/Exercises/02-content-understanding-api.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-information-extraction/Instructions/Exercises/03-document-intelligence.md",
+      "repo": "mslearn-ai-information-extraction",
+      "repoTitle": "AI information extraction",
+      "title": "Extract data with Azure Document Intelligence",
+      "description": "Use prebuilt and custom Document Intelligence models to extract structured data from documents.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [
+        "Azure",
+        "Azure Document Intelligence"
+      ],
+      "path": "Instructions/Exercises/03-document-intelligence.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/03-document-intelligence.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-information-extraction/Instructions/Exercises/03-document-intelligence.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-information-extraction/Instructions/Exercises/04-knowledge-mining.md",
+      "repo": "mslearn-ai-information-extraction",
+      "repoTitle": "AI information extraction",
+      "title": "Create a knowledge mining solution",
+      "description": "Use Azure AI Search to extract key information from documents and make it easier to search and analyze.",
+      "level": 200,
+      "duration": 40,
+      "status": "released",
+      "topics": [
+        "Azure"
+      ],
+      "path": "Instructions/Exercises/04-knowledge-mining.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/04-knowledge-mining.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-information-extraction/Instructions/Exercises/04-knowledge-mining.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-information-extraction/Instructions/Exercises/05-rag-pipeline.md",
+      "repo": "mslearn-ai-information-extraction",
+      "repoTitle": "AI information extraction",
+      "title": "Build an automated RAG ingestion pipeline with Content Understanding",
+      "description": "Use Azure Content Understanding, Azure AI Search, and Azure OpenAI to build a continuous multimodal RAG ingestion pipeline.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [
+        "Azure",
+        "Azure Content Understanding"
+      ],
+      "path": "Instructions/Exercises/05-rag-pipeline.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/05-rag-pipeline.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-information-extraction/Instructions/Exercises/05-rag-pipeline.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with Microsoft Foundry",
+      "description": "Create and explore a Microsoft Foundry project.",
+      "level": 200,
+      "duration": 30,
+      "status": null,
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/00-explore-foundry.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/00-explore-foundry.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with generative AI and agents in Microsoft Foundry",
+      "description": "Use Microsoft Foundry to deploy a generative AI model and create an agent.",
+      "level": 200,
+      "duration": 35,
+      "status": null,
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/02a-generative-ai.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/02a-generative-ai.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/03b-text-analysis.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with text analysis in Microsoft Foundry",
+      "description": "Use Microsoft Foundry to try out different types of text analysis.",
+      "level": 200,
+      "duration": 25,
+      "status": null,
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/03b-text-analysis.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/03b-text-analysis.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/03b-text-analysis.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/04a-speech.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with speech in Microsoft Foundry",
+      "description": "Use Microsoft Foundry to try out Azure Speech - Voice Live.",
+      "level": 200,
+      "duration": 25,
+      "status": null,
+      "topics": [
+        "Azure",
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/04a-speech.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/04a-speech.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/04a-speech.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/05a-image-analysis.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with computer vision in Microsoft Foundry",
+      "description": "Use generative AI models to interpret and generate visual data.",
+      "level": 200,
+      "duration": 30,
+      "status": null,
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/05a-image-analysis.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/05a-image-analysis.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/05a-image-analysis.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/06a-content-understanding.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with information extraction in Microsoft Foundry​",
+      "description": "Use AI models to extract information from visual data.",
+      "level": 200,
+      "duration": 25,
+      "status": null,
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/06a-content-understanding.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/06a-content-understanding.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/06a-content-understanding.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-fundamentals/Instructions/Exercises/07-foundry-iq.md",
+      "repo": "mslearn-ai-fundamentals",
+      "repoTitle": "Azure AI Fundamentals",
+      "title": "Get started with Foundry IQ in Microsoft Foundry",
+      "description": "Use Foundry IQ to connect an agent to knowledge.",
+      "level": 200,
+      "duration": 20,
+      "status": null,
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "path": "Instructions/Exercises/07-foundry-iq.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Exercises/07-foundry-iq.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/07-foundry-iq.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/01-analyze-text.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Analyze text",
+      "description": "Use Azure Language in Foundry Tools to analyze text.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/01-analyze-text.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/01-analyze-text.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/01-analyze-text.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/02-language-agent.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Develop a text analysis agent",
+      "description": "Use Azure Language in Foundry Tools to add text analysis capabilities to an AI agent.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/02-language-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/02-language-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/02-language-agent.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/03-gen-ai-speech.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Use speech-capable generative AI models",
+      "description": "Implement speech functionality using generative AI.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/03-gen-ai-speech.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/03-gen-ai-speech.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/03-gen-ai-speech.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/04-azure-speech.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Recognize and synthesize speech",
+      "description": "Implement speech functionality using Azure Speech in Foundry Tools.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/04-azure-speech.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/04-azure-speech.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/04-azure-speech.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/05-azure-speech-mcp.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Use Azure Speech in an agent",
+      "description": "Use the Azure Speech in Foundry Tools MCP server to add speech capabilities to an agent.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/05-azure-speech-mcp.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/05-azure-speech-mcp.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/05-azure-speech-mcp.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/06-voice-live-agent.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Develop a Voice Live agent",
+      "description": "Use Azure Speech Voice Live in Microsoft Foundry Tools to create a conversational agent.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/06-voice-live-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/06-voice-live-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/06-voice-live-agent.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-language/Instructions/Exercises/07-translation.md",
+      "repo": "mslearn-ai-language",
+      "repoTitle": "Azure AI Language",
+      "title": "Translate text and speech",
+      "description": "Implement translation with Azure Translator and Azure Speech in Foundry Tools.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/07-translation.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/07-translation.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Exercises/07-translation.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-vision/Instructions/Exercises/01-gen-ai-vision.md",
+      "repo": "mslearn-ai-vision",
+      "repoTitle": "Azure AI Vision",
+      "title": "Develop a vision-enabled chat app",
+      "description": "Use Azure AI Foundry to build a generative AI app that supports image input.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/01-gen-ai-vision.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/01-gen-ai-vision.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-gen-ai-vision.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-vision/Instructions/Exercises/02-generate-image.md",
+      "repo": "mslearn-ai-vision",
+      "repoTitle": "Azure AI Vision",
+      "title": "Generate images with AI",
+      "description": "Use an image generation model in Microsoft Foundry to generate images.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/02-generate-image.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/02-generate-image.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/02-generate-image.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-vision/Instructions/Exercises/03-generate-video.md",
+      "repo": "mslearn-ai-vision",
+      "repoTitle": "Azure AI Vision",
+      "title": "Generate video with Sora in Microsoft Foundry",
+      "description": "Learn how to generate AI-powered video content using the Sora model in Microsoft Foundry.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/03-generate-video.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/03-generate-video.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/03-generate-video.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-vision/Instructions/Exercises/04-content-understanding.md",
+      "repo": "mslearn-ai-vision",
+      "repoTitle": "Azure AI Vision",
+      "title": "Analyze images with Azure Content Understanding",
+      "description": "Learn how to use Azure Content Understanding to analyze images and generate descriptive metadata.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/04-content-understanding.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/04-content-understanding.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/04-content-understanding.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A-build-and-extend-ai-agents.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Build and extend AI agents",
+      "description": "Build the Caldova supply chain assistant: ground it in company policy, then extend it with tools using remote MCP servers, custom functions, and a client app. A modular lab you can complete end to end or one task at a time.",
+      "level": 300,
+      "duration": 35,
+      "status": "draft",
+      "topics": [
+        "agent creation and grounding",
+        "tools",
+        "Model Context Protocol (MCP)"
+      ],
+      "path": "Instructions/Consolidated/A-build-and-extend-ai-agents.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A-build-and-extend-ai-agents.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A-build-and-extend-ai-agents.html",
+      "extra": {
+        "type": "lab",
+        "id": "A",
+        "order": 1,
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "agent creation and grounding, tools, Model Context Protocol (MCP)"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A0-getting-started.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Getting started: set up your environment",
+      "description": "Shared setup for the Build and extend AI agents lab: create a Microsoft Foundry project, get the starter code, and configure your environment. Complete this once before any task.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "environment setup",
+        "Microsoft Foundry project"
+      ],
+      "path": "Instructions/Consolidated/A0-getting-started.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A0-getting-started.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A0-getting-started.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 0,
+        "section": "setup",
+        "access": "open",
+        "concepts": "environment setup, Microsoft Foundry project"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A1-create-and-ground-an-agent.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 1 – Create and ground an agent",
+      "description": "Create an agent in the Microsoft Foundry portal and ground it in Caldova supply chain policy so it answers from your data.",
+      "level": 200,
+      "duration": 15,
+      "status": "draft",
+      "topics": [
+        "agent creation",
+        "grounding",
+        "file search"
+      ],
+      "path": "Instructions/Consolidated/A1-create-and-ground-an-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A1-create-and-ground-an-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A1-create-and-ground-an-agent.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 1,
+        "section": "core",
+        "difficulty": 2,
+        "access": "open",
+        "concepts": "agent creation, grounding, file search"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A2-connect-a-remote-mcp-server.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 2 – Connect a remote MCP server",
+      "description": "Extend an agent with a tool by connecting it to a remote Model Context Protocol (MCP) server, and handle tool-approval requests in code.",
+      "level": 300,
+      "duration": 20,
+      "status": "draft",
+      "topics": [
+        "tools",
+        "Model Context Protocol (MCP)",
+        "approvals"
+      ],
+      "path": "Instructions/Consolidated/A2-connect-a-remote-mcp-server.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A2-connect-a-remote-mcp-server.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A2-connect-a-remote-mcp-server.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 2,
+        "section": "core",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "tools, Model Context Protocol (MCP), approvals"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A3-call-your-agent-from-a-client-app.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 3 – Call your agent from a client app",
+      "description": "Drive your grounded portal agent from a small web chat app using the Foundry SDK and Responses API, with inline charts.",
+      "level": 300,
+      "duration": 20,
+      "status": "draft",
+      "topics": [
+        "Foundry SDK",
+        "Responses API",
+        "code interpreter"
+      ],
+      "path": "Instructions/Consolidated/A3-call-your-agent-from-a-client-app.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A3-call-your-agent-from-a-client-app.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A3-call-your-agent-from-a-client-app.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 3,
+        "section": "optional",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "Foundry SDK, Responses API, code interpreter"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A4-add-custom-function-tools.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 4 – Add custom function tools",
+      "description": "Give an agent tools backed by your own Python functions and process the function-calling loop.",
+      "level": 300,
+      "duration": 25,
+      "status": "draft",
+      "topics": [
+        "function tools",
+        "function calling",
+        "Microsoft Agent Framework"
+      ],
+      "path": "Instructions/Consolidated/A4-add-custom-function-tools.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A4-add-custom-function-tools.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A4-add-custom-function-tools.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 4,
+        "section": "optional",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "function tools, function calling, Microsoft Agent Framework"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A5-capstone-build-your-own-mcp-server.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 5 – Capstone: build your own MCP server",
+      "description": "Capstone: build your own MCP server and combine it with your function tools into one Caldova assistant.",
+      "level": 400,
+      "duration": 35,
+      "status": "draft",
+      "topics": [
+        "MCP server",
+        "tool orchestration",
+        "Microsoft Agent Framework"
+      ],
+      "path": "Instructions/Consolidated/A5-capstone-build-your-own-mcp-server.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A5-capstone-build-your-own-mcp-server.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A5-capstone-build-your-own-mcp-server.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 5,
+        "section": "optional",
+        "difficulty": 4,
+        "access": "open",
+        "concepts": "MCP server, tool orchestration, Microsoft Agent Framework"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/A6-promote-your-assistant-to-a-hosted-agent.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 6 – Promote your assistant to a hosted agent",
+      "description": "Take the Caldova assistant you built as a prompt agent and deploy it as a hosted agent - your own code running in a Foundry-managed container - with the Azure Developer CLI.",
+      "level": 300,
+      "duration": 30,
+      "status": "draft",
+      "topics": [
+        "hosted agents",
+        "deployment",
+        "Azure Developer CLI"
+      ],
+      "path": "Instructions/Consolidated/A6-promote-your-assistant-to-a-hosted-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/A6-promote-your-assistant-to-a-hosted-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/A6-promote-your-assistant-to-a-hosted-agent.html",
+      "extra": {
+        "type": "task",
+        "parent": "A",
+        "order": 6,
+        "section": "optional",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "hosted agents, deployment, Azure Developer CLI"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/B-integrate-agents-with-enterprise-knowledge-and-m365.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Integrate agents with enterprise knowledge and Microsoft 365",
+      "description": "Build the Caldova staff knowledge assistant: ground it on enterprise documents with Foundry IQ, then deliver it through Microsoft Teams, Microsoft 365 Copilot, and Work IQ. A modular lab you can complete end to end or one task at a time.",
+      "level": 300,
+      "duration": 35,
+      "status": "draft",
+      "topics": [
+        "enterprise knowledge grounding",
+        "Foundry IQ",
+        "Microsoft 365",
+        "Model Context Protocol (MCP)"
+      ],
+      "path": "Instructions/Consolidated/B-integrate-agents-with-enterprise-knowledge-and-m365.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/B-integrate-agents-with-enterprise-knowledge-and-m365.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/B-integrate-agents-with-enterprise-knowledge-and-m365.html",
+      "extra": {
+        "type": "lab",
+        "id": "B",
+        "order": 2,
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "enterprise knowledge grounding, Foundry IQ, Microsoft 365, Model Context Protocol (MCP)"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/B0-getting-started.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Getting started: set up your environment",
+      "description": "Shared setup for the Integrate agents with enterprise knowledge and Microsoft 365 lab: create a Microsoft Foundry project, get the starter code, and configure your environment. Complete this once before any task.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "environment setup",
+        "Microsoft Foundry project"
+      ],
+      "path": "Instructions/Consolidated/B0-getting-started.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/B0-getting-started.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/B0-getting-started.html",
+      "extra": {
+        "type": "task",
+        "parent": "B",
+        "order": 0,
+        "section": "setup",
+        "access": "open",
+        "concepts": "environment setup, Microsoft Foundry project"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/B1-create-a-foundry-iq-knowledge-agent.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 1 – Create a Foundry IQ knowledge agent and connect from code",
+      "description": "Create an enterprise-knowledge agent in the Microsoft Foundry portal, ground it on the Caldova knowledge base with Foundry IQ, require approval before knowledge lookups, then connect from code and handle the approval flow.",
+      "level": 300,
+      "duration": 35,
+      "status": "draft",
+      "topics": [
+        "Foundry IQ",
+        "enterprise knowledge grounding",
+        "tool approvals",
+        "conversations API"
+      ],
+      "path": "Instructions/Consolidated/B1-create-a-foundry-iq-knowledge-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/B1-create-a-foundry-iq-knowledge-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/B1-create-a-foundry-iq-knowledge-agent.html",
+      "extra": {
+        "type": "task",
+        "parent": "B",
+        "order": 1,
+        "section": "core",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "Foundry IQ, enterprise knowledge grounding, tool approvals, conversations API"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/B2-publish-to-microsoft-teams.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 2 – Publish your agent to Microsoft Teams",
+      "description": "Publish the Caldova knowledge agent to Microsoft Teams so staff can chat with it where they already work.",
+      "level": 200,
+      "duration": 20,
+      "status": "draft",
+      "topics": [
+        "agent publishing",
+        "Microsoft Teams",
+        "Azure Bot Service"
+      ],
+      "path": "Instructions/Consolidated/B2-publish-to-microsoft-teams.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/B2-publish-to-microsoft-teams.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/B2-publish-to-microsoft-teams.html",
+      "extra": {
+        "type": "task",
+        "parent": "B",
+        "order": 2,
+        "section": "optional",
+        "difficulty": 2,
+        "access": "gated",
+        "requires": "A Microsoft 365 account with Teams access, and permission to publish agents to Teams in your tenant",
+        "verify": "In the Foundry portal, open your agent and select **Publish**. If Teams is greyed out or returns a consent error, you don't have the rights this task needs.",
+        "concepts": "agent publishing, Microsoft Teams, Azure Bot Service"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/B3-publish-to-microsoft-365-copilot.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 3 – Publish your agent to Microsoft 365 Copilot",
+      "description": "Publish the Caldova knowledge agent to Microsoft 365 Copilot so staff can reach it inside Copilot.",
+      "level": 200,
+      "duration": 15,
+      "status": "draft",
+      "topics": [
+        "agent publishing",
+        "Microsoft 365 Copilot",
+        "Copilot agents"
+      ],
+      "path": "Instructions/Consolidated/B3-publish-to-microsoft-365-copilot.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/B3-publish-to-microsoft-365-copilot.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/B3-publish-to-microsoft-365-copilot.html",
+      "extra": {
+        "type": "task",
+        "parent": "B",
+        "order": 3,
+        "section": "optional",
+        "difficulty": 2,
+        "access": "gated",
+        "requires": "A Microsoft 365 Copilot licence, and permission to publish agents to Copilot in your tenant",
+        "verify": "In the Foundry portal, open your agent and select **Publish**. If Microsoft 365 Copilot is greyed out or returns a consent error, you don't have the rights this task needs.",
+        "concepts": "agent publishing, Microsoft 365 Copilot, Copilot agents"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/B4-work-iq-workplace-intelligence.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 4 – Work IQ: bring Microsoft 365 signals into an agent",
+      "description": "Build an agent that accesses Microsoft 365 workplace data using Work IQ and the Model Context Protocol for meeting prep, project tracking, and action items.",
+      "level": 400,
+      "duration": 40,
+      "status": "draft",
+      "topics": [
+        "Work IQ",
+        "Microsoft 365",
+        "Model Context Protocol (MCP)",
+        "function tools"
+      ],
+      "path": "Instructions/Consolidated/B4-work-iq-workplace-intelligence.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/B4-work-iq-workplace-intelligence.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/B4-work-iq-workplace-intelligence.html",
+      "extra": {
+        "type": "task",
+        "parent": "B",
+        "order": 4,
+        "section": "optional",
+        "difficulty": 4,
+        "access": "gated",
+        "requires": "A Microsoft 365 Copilot licence, IT admin consent for Work IQ, and Node.js 18 or later",
+        "verify": "Run the command below. If it returns your calendar you're ready; if it reports missing consent or no Copilot licence, skip this task.",
+        "verify_command": "npm install -g @microsoft/workiq && workiq accept-eula && workiq ask -q \"What meetings do I have today?\"",
+        "concepts": "Work IQ, Microsoft 365, Model Context Protocol (MCP), function tools"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/C-build-multi-agent-solutions-with-agent-framework.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Build multi-agent solutions with the Agent Framework",
+      "description": "Build Caldova operations agents with the Microsoft Agent Framework: start with a single tool-using agent, then orchestrate several agents in sequence, then connect remote agents across processes with the A2A protocol. A modular lab you can complete end to end or one task at a time.",
+      "level": 300,
+      "duration": 30,
+      "status": "draft",
+      "topics": [
+        "Microsoft Agent Framework",
+        "tools",
+        "multi-agent orchestration",
+        "A2A protocol"
+      ],
+      "path": "Instructions/Consolidated/C-build-multi-agent-solutions-with-agent-framework.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/C-build-multi-agent-solutions-with-agent-framework.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/C-build-multi-agent-solutions-with-agent-framework.html",
+      "extra": {
+        "type": "lab",
+        "id": "C",
+        "order": 3,
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "Microsoft Agent Framework, tools, multi-agent orchestration, A2A protocol"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/C0-getting-started.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Getting started: set up your environment",
+      "description": "Shared setup for the Build multi-agent solutions with the Agent Framework lab: create a Microsoft Foundry project, get the starter code, and configure your environment. Complete this once before any task.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "environment setup",
+        "Microsoft Foundry project"
+      ],
+      "path": "Instructions/Consolidated/C0-getting-started.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/C0-getting-started.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/C0-getting-started.html",
+      "extra": {
+        "type": "task",
+        "parent": "C",
+        "order": 0,
+        "section": "setup",
+        "access": "open",
+        "concepts": "environment setup, Microsoft Foundry project"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/C1-create-an-agent-with-a-tool.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 1 – Build an agent with a tool",
+      "description": "Use the Microsoft Agent Framework to build a single agent that calls a custom tool: decorate a Python function with @tool, attach it to an Agent, and let agent.run() drive the tool-calling loop.",
+      "level": 300,
+      "duration": 30,
+      "status": "draft",
+      "topics": [
+        "Microsoft Agent Framework",
+        "tools",
+        "agents"
+      ],
+      "path": "Instructions/Consolidated/C1-create-an-agent-with-a-tool.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/C1-create-an-agent-with-a-tool.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/C1-create-an-agent-with-a-tool.html",
+      "extra": {
+        "type": "task",
+        "parent": "C",
+        "order": 1,
+        "section": "core",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "Microsoft Agent Framework, tools, agents"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/C2-orchestrate-multiple-agents.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 2 – Orchestrate multiple agents in sequence",
+      "description": "Use the Microsoft Agent Framework to orchestrate several agents in a sequence: a summarizer, a classifier, and an action agent triage a piece of site feedback, each building on the last.",
+      "level": 300,
+      "duration": 30,
+      "status": "draft",
+      "topics": [
+        "Microsoft Agent Framework",
+        "multi-agent orchestration",
+        "sequential workflow"
+      ],
+      "path": "Instructions/Consolidated/C2-orchestrate-multiple-agents.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/C2-orchestrate-multiple-agents.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/C2-orchestrate-multiple-agents.html",
+      "extra": {
+        "type": "task",
+        "parent": "C",
+        "order": 2,
+        "section": "optional",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "Microsoft Agent Framework, multi-agent orchestration, sequential workflow"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/C3-connect-remote-agents-with-a2a.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 3 – Connect remote agents with A2A",
+      "description": "Use the Agent-to-Agent (A2A) protocol to connect agents that run in separate processes: a routing agent discovers and delegates to a transfer-title agent and a transfer-outline agent, which collaborate to plan Caldova tech transfers.",
+      "level": 400,
+      "duration": 30,
+      "status": "draft",
+      "topics": [
+        "A2A protocol",
+        "remote agents",
+        "multi-agent orchestration"
+      ],
+      "path": "Instructions/Consolidated/C3-connect-remote-agents-with-a2a.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/C3-connect-remote-agents-with-a2a.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/C3-connect-remote-agents-with-a2a.html",
+      "extra": {
+        "type": "task",
+        "parent": "C",
+        "order": 3,
+        "section": "optional",
+        "difficulty": 4,
+        "access": "open",
+        "concepts": "A2A protocol, remote agents, multi-agent orchestration"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/C4-classify-and-route-a-ticket.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 4 – Classify and route a support ticket",
+      "description": "Use the Microsoft Agent Framework to classify Caldova support tickets with a triage agent, then route each one in code based on its category and confidence.",
+      "level": 300,
+      "duration": 30,
+      "status": "draft",
+      "topics": [
+        "Microsoft Agent Framework",
+        "structured output",
+        "classification",
+        "conditional routing"
+      ],
+      "path": "Instructions/Consolidated/C4-classify-and-route-a-ticket.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/C4-classify-and-route-a-ticket.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/C4-classify-and-route-a-ticket.html",
+      "extra": {
+        "type": "task",
+        "parent": "C",
+        "order": 4,
+        "section": "optional",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "Microsoft Agent Framework, structured output, classification, conditional routing"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/D-observe-evaluate-and-secure-agents.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Observe, evaluate, and secure your agents",
+      "description": "Find out what your Caldova agent is actually doing: trace it with OpenTelemetry, score its answers against ground truth with built-in evaluators, and attack it with the AI Red Teaming Agent. A modular lab you can complete end to end or one task at a time.",
+      "level": 300,
+      "duration": 60,
+      "status": "draft",
+      "topics": [
+        "tracing",
+        "OpenTelemetry",
+        "evaluation",
+        "groundedness",
+        "AI red teaming"
+      ],
+      "path": "Instructions/Consolidated/D-observe-evaluate-and-secure-agents.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/D-observe-evaluate-and-secure-agents.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/D-observe-evaluate-and-secure-agents.html",
+      "extra": {
+        "type": "lab",
+        "id": "D",
+        "order": 4,
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "tracing, OpenTelemetry, evaluation, groundedness, AI red teaming"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/D0-getting-started.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Getting started: set up your environment",
+      "description": "Shared setup for the Observe, evaluate, and secure your agents lab: create a Microsoft Foundry project, connect Application Insights, get the starter code, and configure your environment. Complete this once before any task.",
+      "level": 300,
+      "duration": null,
+      "status": "draft",
+      "topics": [
+        "environment setup",
+        "Microsoft Foundry project",
+        "Application Insights"
+      ],
+      "path": "Instructions/Consolidated/D0-getting-started.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/D0-getting-started.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/D0-getting-started.html",
+      "extra": {
+        "type": "task",
+        "parent": "D",
+        "order": 0,
+        "section": "setup",
+        "access": "open",
+        "concepts": "environment setup, Microsoft Foundry project, Application Insights"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/D1-trace-your-agent.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 1 – Trace your agent",
+      "description": "Instrument an agent with OpenTelemetry, export traces to Azure Monitor, add your own spans and attributes, and read the result in the Foundry portal.",
+      "level": 300,
+      "duration": 25,
+      "status": "draft",
+      "topics": [
+        "tracing",
+        "OpenTelemetry",
+        "Azure Monitor",
+        "Application Insights"
+      ],
+      "path": "Instructions/Consolidated/D1-trace-your-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/D1-trace-your-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/D1-trace-your-agent.html",
+      "extra": {
+        "type": "task",
+        "parent": "D",
+        "order": 1,
+        "section": "core",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "tracing, OpenTelemetry, Azure Monitor, Application Insights"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/D2-evaluate-answer-quality.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 2 – Evaluate answer quality",
+      "description": "Score a grounded agent against a ground-truth dataset with the built-in groundedness, relevance and similarity evaluators, and read the row-level results.",
+      "level": 300,
+      "duration": 35,
+      "status": "draft",
+      "topics": [
+        "evaluation",
+        "groundedness",
+        "relevance",
+        "similarity",
+        "ground truth"
+      ],
+      "path": "Instructions/Consolidated/D2-evaluate-answer-quality.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/D2-evaluate-answer-quality.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/D2-evaluate-answer-quality.html",
+      "extra": {
+        "type": "task",
+        "parent": "D",
+        "order": 2,
+        "section": "core",
+        "difficulty": 3,
+        "access": "open",
+        "concepts": "evaluation, groundedness, relevance, similarity, ground truth"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Consolidated/D3-red-team-your-agent.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Task 3 – Red team your agent",
+      "description": "Run the AI Red Teaming Agent against a deployed agent: attack strategies, custom seed prompts, and reading the attack success rate scorecard.",
+      "level": 400,
+      "duration": 35,
+      "status": "draft",
+      "topics": [
+        "AI red teaming",
+        "PyRIT",
+        "attack strategies",
+        "attack success rate"
+      ],
+      "path": "Instructions/Consolidated/D3-red-team-your-agent.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Consolidated/D3-red-team-your-agent.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Consolidated/D3-red-team-your-agent.html",
+      "extra": {
+        "type": "task",
+        "parent": "D",
+        "order": 3,
+        "section": "optional",
+        "difficulty": 4,
+        "access": "open",
+        "concepts": "AI red teaming, PyRIT, attack strategies, attack success rate"
+      }
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/01-build-agent-portal-and-vscode.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Build AI agents with portal and VS Code",
+      "description": "Create an AI agent using both Microsoft Foundry portal and the Foundry Toolkit VS Code extension with built-in tools like file search and code interpreter.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/01-build-agent-portal-and-vscode.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/01-build-agent-portal-and-vscode.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/01-build-agent-portal-and-vscode.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/02-agent-custom-tools.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Use a custom function in an AI agent",
+      "description": "Learn how to use functions to add custom capabilities to your agents.",
+      "level": 300,
+      "duration": 50,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/02-agent-custom-tools.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/02-agent-custom-tools.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/02-agent-custom-tools.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/03-mcp-integration.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Extend agents with Model Context Protocol (MCP) tools",
+      "description": "Extend agent capabilities by integrating Model Context Protocol (MCP) server tools.",
+      "level": 300,
+      "duration": 60,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/03-mcp-integration.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/03-mcp-integration.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/03-mcp-integration.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/04-integrate-agent-with-foundry-iq.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Integrate an AI agent with Foundry IQ",
+      "description": "Use Azure AI Agent Service to develop an agent that uses Foundry IQ to search knowledge bases.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/04-integrate-agent-with-foundry-iq.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/04-integrate-agent-with-foundry-iq.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/04-integrate-agent-with-foundry-iq.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/05a-m365-teams-integration.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Deploy agents to Microsoft Teams and Copilot",
+      "description": "Publish AI agents to Microsoft Teams and Microsoft 365 Copilot for enterprise access",
+      "level": 300,
+      "duration": 40,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/05a-m365-teams-integration.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/05a-m365-teams-integration.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/05a-m365-teams-integration.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/05b-work-iq-integration.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Work IQ - Workplace intelligence for AI agents (optional)",
+      "description": "Build AI agents that access Microsoft 365 workplace data using Work IQ and the Model Context Protocol for meeting prep, project tracking, and action items.",
+      "level": 300,
+      "duration": 40,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/05b-work-iq-integration.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/05b-work-iq-integration.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/05b-work-iq-integration.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/06-build-workflow-ms-foundry.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Build a workflow in Microsoft Foundry",
+      "description": "Use the Microsoft Foundry portal to create workflows for AI agents.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/06-build-workflow-ms-foundry.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/06-build-workflow-ms-foundry.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/06-build-workflow-ms-foundry.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/07-agent-framework.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Develop an Azure AI agent with the Microsoft Agent Framework SDK",
+      "description": "Learn how to use the Microsoft Agent Framework SDK to create and use an Azure AI chat agent.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/07-agent-framework.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/07-agent-framework.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/07-agent-framework.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/08-agent-framework-multi-agents.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Develop a multi-agent solution with Microsoft Agent Framework",
+      "description": "Learn to configure multiple agents to collaborate using the Microsoft Agent Framework SDK",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/08-agent-framework-multi-agents.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/08-agent-framework-multi-agents.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/08-agent-framework-multi-agents.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-agents/Instructions/Exercises/09-multi-remote-agents-with-a2a.md",
+      "repo": "mslearn-ai-agents",
+      "repoTitle": "Develop AI agents",
+      "title": "Connect to remote agents with A2A protocol",
+      "description": "Use the A2A protocol to collaborate with remote agents.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/09-multi-remote-agents-with-a2a.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/09-multi-remote-agents-with-a2a.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/Exercises/09-multi-remote-agents-with-a2a.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-studio/Instructions/Exercises/01-Explore-ai-studio.md",
+      "repo": "mslearn-ai-studio",
+      "repoTitle": "Microsoft Foundry",
+      "title": "Prepare for an AI development project",
+      "description": "Learn how to organize AI resources in a Microsoft Foundry project and get started with the Foundry Toolkit extension for Visual Studio Code.",
+      "level": 200,
+      "duration": 30,
+      "status": "released",
+      "topics": [
+        "Microsoft Foundry",
+        "Visual Studio Code"
+      ],
+      "path": "Instructions/Exercises/01-Explore-ai-studio.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/01-Explore-ai-studio.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/01-Explore-ai-studio.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-studio/Instructions/Exercises/02-model-catalog-evaluation.md",
+      "repo": "mslearn-ai-studio",
+      "repoTitle": "Microsoft Foundry",
+      "title": "Explore and compare models",
+      "description": "Explore the model catalog to find and compare models, and evaluate model performance.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/02-model-catalog-evaluation.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/02-model-catalog-evaluation.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/02-model-catalog-evaluation.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-studio/Instructions/Exercises/03-foundry-sdk.md",
+      "repo": "mslearn-ai-studio",
+      "repoTitle": "Microsoft Foundry",
+      "title": "Create a generative AI chat app",
+      "description": "Learn how to use the OpenAI SDK and the Responses API to build a chat app that connects to a model deployed in Microsoft Foundry.",
+      "level": 300,
+      "duration": 45,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/03-foundry-sdk.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/03-foundry-sdk.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/03-foundry-sdk.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-studio/Instructions/Exercises/04a-use-own-data.md",
+      "repo": "mslearn-ai-studio",
+      "repoTitle": "Microsoft Foundry",
+      "title": "Create a generative AI app that uses tools",
+      "description": "Learn how to use tools to extend the capabilities of a model.",
+      "level": 300,
+      "duration": 30,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/04a-use-own-data.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/04a-use-own-data.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/04a-use-own-data.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-studio/Instructions/Exercises/04b-finetune-model.md",
+      "repo": "mslearn-ai-studio",
+      "repoTitle": "Microsoft Foundry",
+      "title": "Fine-tune a language model",
+      "description": "Learn how to use your own training data to fine-tune a model and customize its behavior.",
+      "level": 300,
+      "duration": 90,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/04b-finetune-model.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/04b-finetune-model.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/04b-finetune-model.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-studio/Instructions/Exercises/06-Explore-content-filters.md",
+      "repo": "mslearn-ai-studio",
+      "repoTitle": "Microsoft Foundry",
+      "title": "Apply guardrails to prevent the output of harmful content",
+      "description": "Learn how to apply content filters that mitigate potentially offensive or harmful output in your generative AI app.",
+      "level": 300,
+      "duration": 25,
+      "status": "released",
+      "topics": [],
+      "path": "Instructions/Exercises/06-Explore-content-filters.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/06-Explore-content-filters.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/Exercises/06-Explore-content-filters.html",
+      "extra": {}
+    },
+    {
+      "id": "mslearn-ai-multi-agents/Instructions/Labs/01-exercise-template.md",
+      "repo": "mslearn-ai-multi-agents",
+      "repoTitle": "Multi-agent solutions",
+      "title": "Exercise Title - Be descriptive.",
+      "description": "Sentence describing the lab. Include names of key technologies and products",
+      "level": 100,
+      "duration": null,
+      "status": "in-development",
+      "topics": [],
+      "path": "Instructions/Labs/01-exercise-template.md",
+      "sourceUrl": "https://github.com/MicrosoftLearning/mslearn-ai-multi-agents/blob/main/Instructions/Labs/01-exercise-template.md",
+      "hostedUrl": "https://microsoftlearning.github.io/mslearn-ai-multi-agents/Instructions/Labs/01-exercise-template.html",
+      "extra": {
+        "targetDate": "2099-01-0'"
+      }
+    }
+  ]
+}
